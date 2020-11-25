@@ -93,7 +93,7 @@ public class BarcodeActivity extends Activity {
                 result = data.getStringExtra(EXTRA_RESULT);
             }
 
-            mBarcodeResultsView.setText(result);
+            mBarcodeResultsView.setText("El resultado es:\n" + result);
         }
     }
 }
